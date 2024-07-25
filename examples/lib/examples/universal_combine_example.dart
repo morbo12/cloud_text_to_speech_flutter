@@ -7,8 +7,6 @@ void main() async {
         googleParams: InitParamsGoogle(apiKey: 'API-KEY'),
         microsoftParams: InitParamsMicrosoft(
             subscriptionKey: 'SUBSCRIPTION-KEY', region: 'eastus'),
-        amazonParams: InitParamsAmazon(
-            keyId: 'KEY-ID', accessKey: 'ACCESS-KEY', region: 'us-east-1'),
         withLogs: true);
 
     final voicesResponse = await TtsUniversal.getVoices();
@@ -24,7 +22,7 @@ void main() async {
         .first;
 
     //Generate Audio for a text
-    final text =
+    const text =
         '<break time="2s" bre="34"/>Combine Universal <some time="3s"/> Text-to-Speech API is awesome';
 
     final ttsParams = TtsParamsUniversal(

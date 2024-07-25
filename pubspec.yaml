@@ -4,23 +4,22 @@ version: 2.3.2
 repository: https://github.com/markokosticdev/cloud_text_to_speech_flutter
 
 environment:
-  sdk: '>=3.0.3 <4.0.0'
+  sdk: ">=3.0.3 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  http:
+  http: ^1.2.2
   json_annotation: ^4.8.1
   build_runner: ^2.4.6
   locale_names: ^1.1.1
   xml: ^6.3.0
-  sigv4: ^5.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^4.0.0
   json_serializable: ^6.7.1
 
 topics:
@@ -28,4 +27,3 @@ topics:
   - text-to-speech
   - google-cloud
   - azure
-  - aws

@@ -36,4 +36,10 @@ class AudioOutputFormatMicrosoft {
   static const String ogg16Khz16BitMonoOpus = "ogg-16khz-16bit-mono-opus";
   static const String ogg24Khz16BitMonoOpus = "ogg-24khz-16bit-mono-opus";
   static const String ogg48Khz16BitMonoOpus = "ogg-48khz-16bit-mono-opus";
+
+  static const String Audio24Khz16Bit48KbpsMonoOpus =
+      "audio-24khz-16bit-48kbps-mono-opus";
+
+  static const String Webm24Khz16Bit24KbpsMonoOpus =
+      "webm-24khz-16bit-24kbps-mono-opus";
 }
